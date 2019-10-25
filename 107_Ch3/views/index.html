@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FSDI 106</title>
+
+    <!-- link your styles  here  -->
+    <link href="styles/bootstrap.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Hello from HTML</h1>
+
+        <div>
+            <label id="lblTodo">Do what?</label>
+            <input id="txtTodo" type="text">
+            <label>Prioriy:</label>
+            <select id="selPriority">
+                <option value="P4">Desired</option>
+                <option value="P3">Minor</option>
+                <option value="P2">Mayor</option>
+                <option value="P1">Urgent</option>
+            </select>
+            <button class="btn btn-md btn-primary" id="btnSave">Save Todo</button>
+        </div>
+
+        <div class="todo-container">
+            <h3>ToDo Tasks</h3>
+            <ul id="todoList" class="list-group">
+
+            </ul>
+        </div>
+
+        <div class="done-container">
+            <h3>Done Task</h3>
+            <ul id="doneList" class="list-group">
+
+            </ul>
+        </div>
+    </div>
+
+
+
+    <!-- Link your JS files here -->
+
+    <!-- jquery -->
+    <!--  1 - add the url for the JS online  -->
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
+
+
+    <!--  2 - add the path for a local file  -->
+    <script src="scripts/jquery-3.4.1.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+    <script src="scripts/app.js"></script>
+
+</body>
+
+</html>
